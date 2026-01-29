@@ -1,6 +1,4 @@
-Below is a ready-to-paste `README.md` that matches what your notebooks + dissertation describe (Mask R-CNN via Detectron2, COCO-style annotations from masks, optional Google Earth Engine export + time-series area tracking). It **does not** mention an MSc or university context.  ([GitHub][1])
 
-````md
 # Water Body Segmentation & Change Tracking (Mask R-CNN / Detectron2)
 
 Detect and segment surface water in satellite imagery using **Mask R-CNN (Detectron2)**, then **track water extent over time** by running inference on time-lapse imagery/videos (e.g., Landsat/Sentinel exports from Google Earth Engine).
@@ -31,33 +29,6 @@ This repo includes:
 
 ---
 
-## Repository Layout
-> Adjust to match your actual repo. This structure is recommended so paths don’t stay “Colab-only”.
-
-```text
-.
-├─ notebooks/
-│  ├─ Create_annotations_and_train_model_Final.ipynb
-│  └─ Application.ipynb
-├─ data/
-│  ├─ raw/
-│  │  ├─ images/
-│  │  └─ masks/
-│  └─ processed/
-│     ├─ images_512/
-│     ├─ masks_512/
-│     ├─ coco_dataset.json
-│     ├─ annotations_train.json
-│     └─ annotations_test.json
-├─ weights/
-│  └─ model_final.pth
-├─ outputs/
-│  ├─ predictions/
-│  ├─ videos/
-│  ├─ csv/
-│  └─ plots/
-└─ README.md
-````
 
 ---
 
