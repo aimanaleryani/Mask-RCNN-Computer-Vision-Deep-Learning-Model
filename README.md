@@ -11,7 +11,6 @@ This repo includes:
 
 ## Contents
 - [Highlights](#highlights)
-- [Repository Layout](#repository-layout)
 - [Setup](#setup)
 - [Data](#data)
 - [Training & Evaluation](#training--evaluation)
