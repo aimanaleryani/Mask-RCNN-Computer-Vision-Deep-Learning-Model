@@ -1,7 +1,12 @@
 
 # Water Body Segmentation & Change Tracking (Mask R-CNN / Detectron2)
 
+## My MSc project!
+
 Detect and segment surface water in satellite imagery using **Mask R-CNN (Detectron2)**, then **track water extent over time** by running inference on time-lapse imagery/videos (e.g., Landsat/Sentinel exports from Google Earth Engine).
+
+![me](https://github.com/aimanaleryani/Mask-RCNN-Computer-Vision-Deep-Learning-Model/blob/main/VideosOut/Assets/AralSeaOut.gif)
+
 
 This repo includes:
 - A training pipeline that converts binary water masks into **COCO-style instance annotations**, trains a **Mask R-CNN R50-FPN** model, and evaluates it.
@@ -32,6 +37,8 @@ This repo includes:
 ---
 
 ## Setup
+
+![me](https://github.com/aimanaleryani/Mask-RCNN-Computer-Vision-Deep-Learning-Model/blob/main/VideosOut/Assets/Use%20Case%20Activity%20Diagram.png)
 
 ### Option A: Google Colab (recommended)
 
@@ -119,8 +126,7 @@ This notebook supports an end-to-end flow:
   * satellite source (e.g., Landsat collection(s) for long history, Sentinel-2 for higher resolution)
   * date range
 * Export to Google Drive as MP4 (RGB image collection required)
-
-> You must replace any hard-coded project IDs and ensure your Earth Engine + Drive permissions are set up.
+* 
 
 ### 2) Run inference on the exported video
 
@@ -135,6 +141,8 @@ This notebook supports an end-to-end flow:
 ---
 
 ## Outputs
+
+![me](https://github.com/aimanaleryani/Mask-RCNN-Computer-Vision-Deep-Learning-Model/blob/main/VideosOut/Assets/imagemasklabel.jpg)
 
 Depending on what you run, you’ll produce:
 
