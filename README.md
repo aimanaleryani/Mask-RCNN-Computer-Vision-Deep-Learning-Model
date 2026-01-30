@@ -1,7 +1,7 @@
 
 # Water Body Segmentation & Change Tracking (Mask R-CNN / Detectron2)
 
-## My MSc project!
+## My MSc Data Science project!
 
 Detect and segment surface water in satellite imagery using **Mask R-CNN (Detectron2)**, then **track water extent over time** by running inference on time-lapse imagery/videos (e.g., Landsat/Sentinel exports from Google Earth Engine).
 
